@@ -1,6 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-const fs = require('fs');
-// const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
+require('dotenv').config();
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -10,8 +9,8 @@ module.exports = {
     },
    
     mumbai: {
-      url: "https://rpc-mumbai.matic.today",
-      accounts: [process.env.privateKey]
+      url: "https://rpc-mumbai.matic.today", 
+      accounts: [process.env.PRIVATE_KEY],
     },
      /*
     matic: {
@@ -23,7 +22,7 @@ module.exports = {
     */
   },
   solidity: {
-    version: "0.8.4",
+    version: "0.8.9",
     settings: {
       optimizer: {
         enabled: true,

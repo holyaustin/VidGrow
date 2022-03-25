@@ -1,7 +1,7 @@
 # VidGrow
 
 ## Description
-VidGrow is a video solution of stackoverflow  for developers who wish to get visual solutions to their codes. This make debugging easier when a developer is visually engaged with the solution provided by another developer.
+A social media hub dedicated to short video submission and live streaming.VidGrow is a video solution of stackoverflow  for developers who wish to get visual solutions to their codes. This make debugging easier when a developer is visually engaged with the solution provided by another developer.
 The platform is built with Lens protocols, covalent and deployed on Polygon mumbai testnet. 
 This is still a yoiung project will still need time to get all features working.
 
@@ -10,7 +10,7 @@ This is still a yoiung project will still need time to get all features working.
 1. Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
-git clone https://github.com/dabit3/polygon-ethereum-nextjs-marketplace.git
+git clone https://github.com/holyaustin/vidgrow.git
 
 cd polygon-ethereum-nextjs-marketplace
 
@@ -41,6 +41,7 @@ npm run dev
 ```
 
 ## Deployed Mumbai address
+npx hardhat run scripts/deploy.js --network mumbai
 
-deployed to: 0xdbc8FE905fBa562d400c475f86D32F35aCa90767
+deployed to: 0x379Ed915E316d35A78A405dCf3b139Da60998030
 
