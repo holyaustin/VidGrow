@@ -1,7 +1,7 @@
 # VidGrow
 
 ## Description
-A social media hub dedicated to short video submission and live streaming.VidGrow is a video solution of stackoverflow  for developers who wish to get visual solutions to their codes. This make debugging easier when a developer is visually engaged with the solution provided by another developer.
+A deevlopers hub dedicated to short video submission and live streaming.VidGrow is a video solution of stackoverflow  for developers who wish to get visual solutions to their codes. This make debugging easier when a developer is visually engaged with the solution provided by another developer.
 The platform is built with Lens protocols, covalent and deployed on Polygon mumbai testnet. 
 This is still a yoiung project will still need time to get all features working.
 
