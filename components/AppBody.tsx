@@ -124,8 +124,11 @@ const AppBody: React.FC<Props> = ({ state, setApiKey, createStream }) => {
         2
       );
       return (
-        <div className="container w-full flex flex-col items-center overflow-auto pb-14">
+        <div className="container w-full flex flex-col items-center overflow-auto pb-7">
+            <div className="text-blue-500 text-center text-3xl pt-2">
+              Live Streaming</div>
           <div className="relative bg-black h-56 lg:h-96 w-full xl:w-3/5 overflow-hidden">
+
             <div data-vjs-player>
               <video
                 id="video"

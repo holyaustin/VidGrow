@@ -14,7 +14,8 @@ git clone https://github.com/holyaustin/vidgrow.git
 
 cd polygon-ethereum-nextjs-marketplace
 
-# install using NPM or Yarn
+## install using NPM or Yarn
+
 npm install
 
 # or
