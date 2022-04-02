@@ -23,12 +23,12 @@ export default function ReadBook() {
 
   async function like() {
 
-    router.push('/')
+    router.push('')
   }
 
   async function follow() {
   
-    router.push('https://delibrary-quiz.4everland.app/')
+    router.push('')
   }
 
   async function loadNFTs() {
